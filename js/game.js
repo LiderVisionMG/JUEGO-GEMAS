@@ -37,11 +37,11 @@ var textDisplay = {
 					score:'PUNTAJE',
 					time:'TIEMPO',
 					gameover:'NO MORE MOVE!',
-					timeend:'SE ACABO!',
+					timeend:'¡SE ACABO!',
 					exitTitle:'SALIR DEL JUEGO',
 					exitMessage:'¿ESTAS SEGURO DE SALIR?',
 					share:'SHARE YOUR SCORE',
-					resultTitle:'JUEGO TERMINADO',
+					resultTitle:'RESULTADO',
 				}
 
 //Social share, [SCORE] will replace with game score
