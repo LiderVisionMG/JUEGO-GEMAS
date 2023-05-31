@@ -11,7 +11,7 @@
 //level settings
 var levelSettings = {
 					score:100,
-					timer:61000,
+					timer:181000,
 					columns:8,
 					rows:8,
 					tileWidth:60,
