@@ -34,14 +34,14 @@ var levelSettings = {
 
 //game text display
 var textDisplay = {
-					score:'SCORE',
-					time:'TIME',
+					score:'PUNTAJE',
+					time:'TIEMPO',
 					gameover:'NO MORE MOVE!',
-					timeend:'TIME\'s UP!',
-					exitTitle:'EXIT GAME',
-					exitMessage:'ARE YOU SURE YOU WANT\nTO QUIT GAME?',
+					timeend:'SE ACABO!',
+					exitTitle:'SALIR DEL JUEGO',
+					exitMessage:'¿ESTAS SEGURO DE SALIR?',
 					share:'SHARE YOUR SCORE',
-					resultTitle:'GAME OVER',
+					resultTitle:'JUEGO TERMINADO',
 				}
 
 //Social share, [SCORE] will replace with game score
