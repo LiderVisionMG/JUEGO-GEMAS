@@ -80,7 +80,7 @@ function buildGameCanvas(){
 
 	gameStatusTxt = new createjs.Text();
 	gameStatusTxt.font = "45px muroregular";
-	gameStatusTxt.color = '#fea300';
+	gameStatusTxt.color = '#800000';
 	gameStatusTxt.textAlign = "center";
 	gameStatusTxt.textBaseline='alphabetic';
 	gameStatusTxt.text = '';
@@ -105,7 +105,7 @@ function buildGameCanvas(){
 
 	gameScoreTxt = new createjs.Text();
 	gameScoreTxt.font = "45px muroregular";
-	gameScoreTxt.color = '#fea300';
+	gameScoreTxt.color = '#800000';
 	gameScoreTxt.textAlign = "center";
 	gameScoreTxt.textBaseline='alphabetic';
 	gameScoreTxt.text = 0;
@@ -113,7 +113,7 @@ function buildGameCanvas(){
 
 	gameScoreDescTxt = new createjs.Text();
 	gameScoreDescTxt.font = "35px muroregular";
-	gameScoreDescTxt.color = '#fea300';
+	gameScoreDescTxt.color = '#800000';
 	gameScoreDescTxt.textAlign = "center";
 	gameScoreDescTxt.textBaseline='alphabetic';
 	gameScoreDescTxt.text = textDisplay.score;
@@ -125,7 +125,7 @@ function buildGameCanvas(){
 
 	gameTimerTxt = new createjs.Text();
 	gameTimerTxt.font = "45px muroregular";
-	gameTimerTxt.color = '#fea300';
+	gameTimerTxt.color = '#800000';
 	gameTimerTxt.textAlign = "center";
 	gameTimerTxt.textBaseline='alphabetic';
 	gameTimerTxt.text = 0;
@@ -133,7 +133,7 @@ function buildGameCanvas(){
 
 	gameTimerDescTxt = new createjs.Text();
 	gameTimerDescTxt.font = "35px muroregular";
-	gameTimerDescTxt.color = '#fea300';
+	gameTimerDescTxt.color = '#800000';
 	gameTimerDescTxt.textAlign = "center";
 	gameTimerDescTxt.textBaseline='alphabetic';
 	gameTimerDescTxt.text = textDisplay.time;
@@ -152,21 +152,21 @@ function buildGameCanvas(){
 	
 	resultShareTxt = new createjs.Text();
 	resultShareTxt.font = "35px muroregular";
-	resultShareTxt.color = '#fea300';
+	resultShareTxt.color = '#800000';
 	resultShareTxt.textAlign = "center";
 	resultShareTxt.textBaseline='alphabetic';
 	resultShareTxt.text = textDisplay.share;
 	
 	resultTitleTxt = new createjs.Text();
 	resultTitleTxt.font = "50px muroregular";
-	resultTitleTxt.color = '#fea300';
+	resultTitleTxt.color = '#800000';
 	resultTitleTxt.textAlign = "center";
 	resultTitleTxt.textBaseline='alphabetic';
 	resultTitleTxt.text = textDisplay.resultTitle;
 
 	resultScoreTxt = new createjs.Text();
 	resultScoreTxt.font = "120px muroregular";
-	resultScoreTxt.color = '#fea300';
+	resultScoreTxt.color = '#800000';
 	resultScoreTxt.textAlign = "center";
 	resultScoreTxt.textBaseline='alphabetic';
 	resultScoreTxt.text = '1,000';
