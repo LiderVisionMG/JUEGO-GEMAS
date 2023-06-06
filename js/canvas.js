@@ -152,21 +152,21 @@ function buildGameCanvas(){
 	
 	resultShareTxt = new createjs.Text();
 	resultShareTxt.font = "35px muroregular";
-	resultShareTxt.color = '#610a0a';
+	resultShareTxt.color = '#fff';
 	resultShareTxt.textAlign = "center";
 	resultShareTxt.textBaseline='alphabetic';
 	resultShareTxt.text = textDisplay.share;
 	
 	resultTitleTxt = new createjs.Text();
 	resultTitleTxt.font = "50px muroregular";
-	resultTitleTxt.color = '#610a0a';
+	resultTitleTxt.color = '#fff';
 	resultTitleTxt.textAlign = "center";
 	resultTitleTxt.textBaseline='alphabetic';
 	resultTitleTxt.text = textDisplay.resultTitle;
 
 	resultScoreTxt = new createjs.Text();
 	resultScoreTxt.font = "120px muroregular";
-	resultScoreTxt.color = '#610a0a';
+	resultScoreTxt.color = '#fff';
 	resultScoreTxt.textAlign = "center";
 	resultScoreTxt.textBaseline='alphabetic';
 	resultScoreTxt.text = '1,000';
