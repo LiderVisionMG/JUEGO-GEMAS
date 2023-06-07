@@ -105,7 +105,7 @@ function buildGameCanvas(){
 
 	gameScoreTxt = new createjs.Text();
 	gameScoreTxt.font = "45px muroregular";
-	gameScoreTxt.color = '#610a0a';
+	gameScoreTxt.color = '#fff';
 	gameScoreTxt.textAlign = "center";
 	gameScoreTxt.textBaseline='alphabetic';
 	gameScoreTxt.text = 0;
@@ -113,7 +113,7 @@ function buildGameCanvas(){
 
 	gameScoreDescTxt = new createjs.Text();
 	gameScoreDescTxt.font = "35px muroregular";
-	gameScoreDescTxt.color = '#fff';
+	gameScoreDescTxt.color = '#610a0a';
 	gameScoreDescTxt.textAlign = "center";
 	gameScoreDescTxt.textBaseline='alphabetic';
 	gameScoreDescTxt.text = textDisplay.score;
@@ -125,7 +125,7 @@ function buildGameCanvas(){
 
 	gameTimerTxt = new createjs.Text();
 	gameTimerTxt.font = "45px muroregular";
-	gameTimerTxt.color = '#610a0a';
+	gameTimerTxt.color = '#fff';
 	gameTimerTxt.textAlign = "center";
 	gameTimerTxt.textBaseline='alphabetic';
 	gameTimerTxt.text = 0;
@@ -133,7 +133,7 @@ function buildGameCanvas(){
 
 	gameTimerDescTxt = new createjs.Text();
 	gameTimerDescTxt.font = "35px muroregular";
-	gameTimerDescTxt.color = '#fff';
+	gameTimerDescTxt.color = '#610a0a';
 	gameTimerDescTxt.textAlign = "center";
 	gameTimerDescTxt.textBaseline='alphabetic';
 	gameTimerDescTxt.text = textDisplay.time;
