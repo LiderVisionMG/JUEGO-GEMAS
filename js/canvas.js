@@ -152,7 +152,7 @@ function buildGameCanvas(){
 	
 	resultShareTxt = new createjs.Text();
 	resultShareTxt.font = "35px muroregular";
-	resultShareTxt.color = '#fff';
+	resultShareTxt.color = '#610a0a';
 	resultShareTxt.textAlign = "center";
 	resultShareTxt.textBaseline='alphabetic';
 	resultShareTxt.text = textDisplay.share;
@@ -166,7 +166,7 @@ function buildGameCanvas(){
 
 	resultScoreTxt = new createjs.Text();
 	resultScoreTxt.font = "120px muroregular";
-	resultScoreTxt.color = '#fff';
+	resultScoreTxt.color = '#610a0a';
 	resultScoreTxt.textAlign = "center";
 	resultScoreTxt.textBaseline='alphabetic';
 	resultScoreTxt.text = '1,000';
